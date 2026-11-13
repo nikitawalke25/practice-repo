@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PAGE 1
+    ========================== -->
+
+    <section class="dashboard">
+
+        <div class="hero">
+            <h1>Covid-19</h1>
+            <h2>Global Data Dashboard</h2>
+
+            <p class="updated">
+                Last updated: 31.05.20 • 23:59 GMT
+            </p>
+        </div>
+
+        <div class="left-label">
+            Information
+        </div>
+
+        <div class="right-nav">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <section class="statistics">
+
+            <div class="stat-card">
+                <h3>6,150,482</h3>
+                <p>Cases</p>
+                <span class="increase">+ 124,102</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>370,506</h3>
+                <p>Fatalities</p>
+                <span class="increase">+ 4,884</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>3,045,430</h3>
+                <p>Active Cases</p>
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!-- =========================
+         PAGE 2
+    ========================== -->
+
+    <section class="country-page">
+
+        <div class="country-header">
+            <h1>Virus cases by country</h1>
+            <p>Confirmed cases</p>
+        </div>
+
+        <div class="toggle">
+            <button class="active">Total Cases</button>
+            <button>Active Cases</button>
+        </div>
+
+
+        <div class="country-list">
+
+            <div class="country">
+                <span>USA</span>
+                <div class="bar" style="width:100%">
+                    <strong>1,816,820</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Brz</span>
+                <div class="bar" style="width:55%">
+                    <strong>498,440</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Rus</span>
+                <div class="bar" style="width:44%">
+                    <strong>396,575</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Spa</span>
+                <div class="bar" style="width:31%">
+                    <strong>286,308</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>UK</span>
+                <div class="bar" style="width:30%">
+                    <strong>272,826</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Ita</span>
+                <div class="bar" style="width:26%">
+                    <strong>232,664</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Fra</span>
+                <div class="bar" style="width:21%">
+                    <strong>188,625</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Ger</span>
+                <div class="bar" style="width:20%">
+                    <strong>183,294</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Ind</span>
+                <div class="bar" style="width:20%">
+                    <strong>181,827</strong>
+                </div>
+            </div>
+
+            <div class="country">
+                <span>Tur</span>
+                <div class="bar" style="width:18%">
+                    <strong>163,103</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!-- =========================
+     PAGE 3 - VIRUS GROWTH
+========================== -->
+
+<section class="growth-page">
+
+    <div class="growth-header">
+        <h1>Recent virus growth by country</h1>
+
+        <p>
+            Increase in cases over past 24 hours – top 8 countries
+        </p>
+    </div>
+
+
+    <!-- Toggle Buttons -->
+
+    <div class="growth-toggle">
+        <button class="growth-active">By Number</button>
+        <button>By Percent</button>
+    </div>
+
+
+    <!-- Bar Chart -->
+
+    <div class="chart">
+
+        <div class="chart-item">
+
+            <div class="value value-big">
+                +39,162
+            </div>
+
+            <div class="chart-bar bar-1"></div>
+
+            <div class="country-name">Brz</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +23,290
+            </div>
+
+            <div class="chart-bar bar-2"></div>
+
+            <div class="country-name">USA</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +8,952
+            </div>
+
+            <div class="chart-bar bar-3"></div>
+
+            <div class="country-name">Rus</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +8,336
+            </div>
+
+            <div class="chart-bar bar-4"></div>
+
+            <div class="country-name">Ind</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +7,836
+            </div>
+
+            <div class="chart-bar bar-5"></div>
+
+            <div class="country-name">Per</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +4,220
+            </div>
+
+            <div class="chart-bar bar-6"></div>
+
+            <div class="country-name">Chi</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +3,227
+            </div>
+
+            <div class="chart-bar bar-7"></div>
+
+            <div class="country-name">Mex</div>
+
+        </div>
+
+
+        <div class="chart-item">
+
+            <div class="value">
+                +2,429
+            </div>
+
+            <div class="chart-bar bar-8"></div>
+
+            <div class="country-name">Pak</div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     PAGE 4 - VIRUS SPREAD
+========================== -->
+
+<section class="spread-page">
+
+    <div class="spread-header">
+        <h1>Virus spread by country</h1>
+
+        <p>
+            Confirmed cases in relation to population size
+        </p>
+    </div>
+
+
+    <div class="spread-grid">
+
+        <!-- USA -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle usa"></div>
+            </div>
+
+            <h3>USA</h3>
+            <span>0.56%</span>
+        </div>
+
+
+        <!-- Brazil -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle brazil"></div>
+            </div>
+
+            <h3>Brazil</h3>
+            <span>0.24%</span>
+        </div>
+
+
+        <!-- Russia -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle russia"></div>
+            </div>
+
+            <h3>Russia</h3>
+            <span>0.27%</span>
+        </div>
+
+
+        <!-- Spain -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle spain"></div>
+            </div>
+
+            <h3>Spain</h3>
+            <span>0.61%</span>
+        </div>
+
+
+        <!-- UK -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle uk"></div>
+            </div>
+
+            <h3>UK</h3>
+            <span>0.40%</span>
+        </div>
+
+
+        <!-- Italy -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle italy"></div>
+            </div>
+
+            <h3>Italy</h3>
+            <span>0.39%</span>
+        </div>
+
+
+        <!-- France -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle france"></div>
+            </div>
+
+            <h3>France</h3>
+            <span>0.28%</span>
+        </div>
+
+
+        <!-- Germany -->
+        <div class="spread-country">
+            <div class="circle">
+                <div class="inner-circle germany"></div>
+            </div>
+
+            <h3>Germany</h3>
+            <span>0.22%</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     PAGE 5 - FATALITIES
+========================= -->
+
+<section class="fatalities-page">
+
+    <div class="fatalities-header">
+        <h1>Fatalities</h1>
+
+        <p>
+            Number and rate of fatalities in relation to cases
+        </p>
+    </div>
+
+    <div class="fatality-toggle">
+        <button class="active">By Number</button>
+        <button>By Rate</button>
+    </div>
+
+    <div class="fatalities-list">
+
+        <div class="fatality-row">
+            <span>USA</span>
+            <div class="fatality-bar bar-usa">105,557</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>UK</span>
+            <div class="fatality-bar bar-uk">38,376</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Ita</span>
+            <div class="fatality-bar bar-ita">33,340</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Brz</span>
+            <div class="fatality-bar bar-brz">28,834</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Fra</span>
+            <div class="fatality-bar bar-fra">28,771</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Spa</span>
+            <div class="fatality-bar bar-spa">27,125</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Bel</span>
+            <div class="fatality-bar bar-bel">9,453</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Mex</span>
+            <div class="fatality-bar bar-mex">9,415</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Ger</span>
+            <div class="fatality-bar bar-ger">8,600</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Irn</span>
+            <div class="fatality-bar bar-irn">7,734</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Can</span>
+            <div class="fatality-bar bar-can">7,073</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Ned</span>
+            <div class="fatality-bar bar-ned">5,951</div>
+        </div>
+
+        <div class="fatality-row">
+            <span>Ind</span>
+            <div class="fatality-bar bar-ind">5,185</div>
+        </div>
+
+        
+
+    </div>
+
+</section>
+<!-- PAGE 6 : RECOVERIES -->
+<section class="recoveries-section">
+
+    <div class="recoveries-heading">
+        <h2>Recoveries</h2>
+        <p>Global recoveries compared to global fatalities</p>
+    </div>
+
+    <div class="recoveries-content">
+
+        <!-- Fatalities -->
+        <div class="fatalities-info">
+            <span class="number">370,506</span>
+            <span class="label">Fatalities</span>
+        </div>
+
+        <!-- Circles -->
+        <div class="recovery-circles">
+            <div class="fatality-circle"></div>
+            <div class="recovery-circle"></div>
+        </div>
+
+        <!-- Recoveries -->
+        <div class="recoveries-info">
+            <span class="number">2,734,546</span>
+            <span class="label">Recoveries</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- PAGE 7 : TREND -->
+<section class="trend-section">
+
+    <div class="trend-header">
+        <h2>Trend</h2>
+        <p>Total number of cases globally — past 7 days</p>
+    </div>
+
+    <div class="trend-chart">
+
+        <!-- Horizontal grid lines -->
+        <div class="grid-line line-62"><span>6.2m</span></div>
+        <div class="grid-line line-61"><span>6.1m</span></div>
+        <div class="grid-line line-60"><span>6.0m</span></div>
+        <div class="grid-line line-59"><span>5.9m</span></div>
+        <div class="grid-line line-58"><span>5.8m</span></div>
+        <div class="grid-line line-57"><span>5.7m</span></div>
+        <div class="grid-line line-56"><span>5.6m</span></div>
+        <div class="grid-line line-55"><span>5.5m</span></div>
+        <div class="grid-line line-54"><span>5.4m</span></div>
+        <div class="grid-line line-53"><span>5.3m</span></div>
+        <div class="grid-line line-52"><span>5.2m</span></div>
+
+        <!-- Data points -->
+        <div class="trend-point point-24"></div>
+        <div class="trend-point point-25"></div>
+        <div class="trend-point point-26"></div>
+        <div class="trend-point point-27"></div>
+        <div class="trend-point point-28"></div>
+        <div class="trend-point point-29"></div>
+        <div class="trend-point point-30"></div>
+
+        <!-- X-axis dates -->
+        <div class="trend-dates">
+            <span>24 May</span>
+            <span>25</span>
+            <span>26</span>
+            <span>27</span>
+            <span>28</span>
+            <span>29</span>
+            <span>30</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <p class="project-info">
+        A data visualisation project by
+        <strong>W-Interactive</strong>
+    </p>
+
+    <p class="copyright">
+        © Copyright 2020 — All Rights Reserved
+    </p>
+
+    <div class="share-section">
+        <p>Share this site:</p>
+
+        <div class="social-icons">
+            <a href="#" class="social linkedin">in</a>
+            <a href="#" class="social facebook">f</a>
+            <a href="#" class="social twitter">♥</a>
+        </div>
+    </div>
+
+    <a href="#" class="return-top">Return to top</a>
+
+</footer>
+</body>
+</html>
